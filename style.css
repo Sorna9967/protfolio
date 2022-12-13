@@ -1,0 +1,117 @@
+body{
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+}    
+/* Header design start */
+h1{
+    margin: 0;
+}
+.first-hr{
+    border-bottom: 1 px solid rgb(120, 115, 115);
+    color: red;
+}
+.header-main{
+    background-color:#562eFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    
+}
+.header-body{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    display: flex;
+}
+.nav-item li{
+    margin-left: 20px;
+} 
+.nav-item li a{
+    text-decoration: none;
+    color: white;
+}
+.right-nav-section{
+    margin-left:400px;
+}
+.profile-photo{
+    width:40px ;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0 !important;
+}  
+.list-item{
+    padding-top: 10px;
+}
+/* .grid-exm{
+    background-color: aquamarine;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat();
+} */
+/* Header design end */
+
+/* main design start */
+
+.main-body{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px 20px 20px 20px;
+}
+.Top-player h1{
+    color: #562EFF;
+}
+.player-jon img{
+    width:50px;
+    height:50px;
+    border-radius: 30px;
+    padding: 0 !important;
+    margin-top: 20px;
+}
+.player-jon{
+    display: flex;
+}
+.name-jon{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.all-players{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-gap: 20px;
+    margin-left: 25px;
+}
+/* top blog design start */
+.top-design{
+    color: #562EFF;
+}
+.single-blog img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.single-blog{
+    display:flex;
+}
+.blog-second{
+   margin-left: 20px;
+   font-size: 13px;
+   margin-bottom: 20px;
+}
+.blogs{
+   margin-top: 30px;
+   margin-left: 20px;
+   display:grid;
+   grid-template-columns: repeat(2,6fr);
+   grid-gap: 20px;
+}
+
+/* top blog design end */
+
+
+/* main design end */
